@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="color-1.css">
+        <link rel="stylesheet" href="swiper/swiper-bundle.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="nav__container">
+                <a href="index.html" class="nav__logo">
+                    <i class="bx bxs-shopping-bags nav__logo-icons"></i> C-Badminton
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="index.html" class="nav__link active-link">Home</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="product.html" class="nav__link">Product</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="cart.html" class="nav__link">Cart</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="contact.html" class="nav__link ">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav__buttons">
+                    <div class="login__toggle" id="login-toggle">
+                        <i class="bx bx-user"></i>
+                    </div>
+
+                    <div class="nav__shop" id="cart-shop">
+                        <i class="bx bx-shopping-bag"></i>
+                    </div>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="bx bx-grid-alt"></i>
+                    </div>
+                </div>
+                
+            </nav>
+        </header>
+
+        <!--=======Cart============-->
+        <div class="cart" id="cart">
+            <i class="bx bx-x cart__close"></i>
+
+            <h2 class="cart__title-center">My Cart</h2>
+
+            <div class="cart__container">
+                <article class="cart__card">
+                    <div class="cart__box">
+                        <img src="nanoflare nextage.png" alt="" class="cart__img">
+                    </div>
+
+                    <div class="cart__details">
+                        <h3 class="cart__title">NANOFLARE NEXTAGE</h3>
+                        <span class="cart__price">₱3,545.00</span>
+
+                        <di class="cart__amount">
+                            <div class="cart__amount-content">
+                                <span class="cart__amount-box">
+                                    <i class="bx bx-minus"></i>
+                                </span>
+
+                                <span class="cart__amount-number">1</span>
+
+                                <span class="cart__amount-box">
+                                    <i class="bx bx-plus"></i>
+                                </span>
+                            </div>
+                        <i class="bx bx-trash-alt cart__amount-trash"></i>
+                    </div>
+                </article>
+
+                <article class="cart__card">
+                    <div class="cart__box">
+                        <img src="NANOFLARE 800 GAME.png" alt="" class="cart__img">
+                    </div>
+
+                    <div class="cart__details">
+                        <h3 class="cart__title">NANOFLARE 800 GAME</h3>
+                        <span class="cart__price">₱2,500.00</span>
+
+                        <di class="cart__amount">
+                            <div class="cart__amount-content">
+                                <span class="cart__amount-box">
+                                    <i class="bx bx-minus"></i>
+                                </span>
+
+                                <span class="cart__amount-number">1</span>
+
+                                <span class="cart__amount-box">
+                                    <i class="bx bx-plus"></i>
+                                </span>
+                            </div>
+
+                        <i class="bx bx-trash-alt cart__amount-trash"></i>
+                    </div>
+                </article>
+
+                <article class="cart__card">
+                    <div class="cart__box">
+                        <img src="NANOFLARE 800 TOUR.png" alt="" class="cart__img">
+                    </div>
+
+                    <div class="cart__details">
+                        <h3 class="cart__title">NANOFLARE 800 TOUR</h3>
+                        <span class="cart__price">₱ 5,155.00</span>
+
+                        <div class="cart__amount">
+                            <div class="cart__amount-content">
+                                <span class="cart__amount-box">
+                                    <i class="bx bx-minus"></i>
+                                </span>
+
+                                <span class="cart__amount-number">1</span>
+
+                                <span class="cart__amount-box">
+                                    <i class="bx bx-plus"></i>
+                                </span>
+                            </div>
+                        <i class="bx bx-trash-alt cart__amount-trash"></i>
+                    </div>
+                </article>
+            </div>
+
+            <div class="cart__prices">
+                <span class="cart__prices-item">3 item</span>
+                <span class="cart__prices-total">₱10,635.00</span>
+            </div>
+        </div>
+
+        <!--=======Log in============-->
+        <div class="login">
+            <i class="bx bx-x login__close" id="login-close"></i>
+
+            <h2 class="Login__title-center">Login</h2>
+
+            <form action="" class="Login__form grid">
+                <div class="Login__content">
+                    <label for="" class="Login__label">Email</label>
+                    <input type="email" class="Login__input">
+                </div>
+
+                <div class="Login__content">
+                    <label for="" class="Login__label">Password</label>
+                    <input type="password" class="Login__input">
+                </div>
+
+                <div>
+                    <a href="#" class="button">Sign In</a>
+                </div>
+
+                <div>
+                    <p class="signup">Not a member? <a href="registration.html">Sign up now</a></p>
+                </div>
+            </form>
+        </div>
+
+        <!--=======Main============-->
+        <main class="main"></main>
+            <!--=======Home============-->
+            <section class="home container">
+                <div class="swiper home-swiper">
+                    <div class="swiper-wrapper">
+                        <!--=======Home swiper============-->
+                        <section class="swiper-slide">
+                            <div class="home__content grid">
+                                <div class="home__group">
+                                    <img src="swiper/img/Astrox 3 DG HF.png" alt="" class="home__img">
+                                    <div class="home__indicator"></div>
+
+                                    <div class="home__details-img">
+                                        <h4 class="home__details-title">Astrox 3 DG HF</h4>
+                                        <span class="home__details-subtitle"></span>
+                                    </div>
+                                </div>
+
+                                <div class="home__data">
+                                    <h3 class="home__subtitle">#1 TRENDING ITEM</h3>
+                                    <h1 class="home__title">MASTER'S <br> CHOICE <br> RACKET!! </h1>
+                                    <p class="homte__description">Crafted with aerospace-grade materials and engineered for optimal performance.
+                                    Effortlessly combines finesse with ferocity, ensuring every swing is a stroke of brilliance on the court.
+                                    </p>
+
+                                    <div class="home__buttons">
+                                        <a href="details.html" class="button">Buy Now</a>
+                                        <a href="details.html" class="button--link button--flex">View Details<i class="bx bx-right-arrow-alt button__icon"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                         <!--=======Home swiper 2============-->
+                         <section class="swiper-slide">
+                            <div class="home__content grid">
+                                <div class="home__group">
+                                    <img src="swiper/img/shoes10.jpg" alt="" class="home__img">
+                                    <div class="home__indicator"></div>
+
+                                    <div class="home__details-img">
+                                        <h4 class="home__details-title">Power Cushion Strider Beat</h4>
+                                        <span class="home__details-subtitle"></span>
+                                    </div>
+                                </div>
+
+                                <div class="home__data">
+                                    <h3 class="home__subtitle">#2 YONEX SHOE</h3>
+                                    <h1 class="home__title">YONEX <br> HOME<br> SHOE!! </h1>
+                                    <p class="homte__description">Crafted with precision engineering and premium materials, It offers a perfect blend of style and functionality,
+                                        ensuring every step is a testament to your refined taste and active lifestyle.
+                                    </p>
+
+                                    <div class="home__buttons">
+                                        <a href="details.html" class="button">Buy Now</a>
+                                        <a href="details.html" class="button--link button--flex">View Details<i class="bx bx-right-arrow-alt button__icon"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!--=======Home swiper 3============-->
+                        <section class="swiper-slide">
+                            <div class="home__content grid">
+                                <div class="home__group">
+                                    <img src="swiper/img/bag5.jpg" alt="" class="home__img">
+                                    <div class="home__indicator"></div>
+
+                                    <div class="home__details-img">
+                                        <h4 class="home__details-title">Limited Pro Racquet Bag 9 Pcs</h4>
+                                        <span class="home__details-subtitle"></span>
+                                    </div>
+                                </div>
+
+                                <div class="home__data">
+                                    <h3 class="home__subtitle">#3 YONEX RACQUET BAG</h3>
+                                    <h1 class="home__title">LIMITED <br>YONEX <br> BAG!! </h1>
+                                    <p class="homte__description">Crafted with precision and innovation, this baf seamlessly blend style and practicality, ensuring your gear
+                                        is always securely stored and effortlessly carried from court to court.
+                                    </p>
+
+                                    <div class="home__buttons">
+                                        <a href="details.html" class="button">Buy Now</a>
+                                        <a href="details.html" class="button--link button--flex">View Details<i class="bx bx-right-arrow-alt button__icon"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+            <!--=======Discount============-->
+             <section class="discount section">
+                <div class="discount__container container grid">
+                    <img src="discount img/NANOFLARE 800 GAME.png" alt="" class="discount__img">
+
+                    <div class="discount__data">
+                        <h2 class="discount__titles">50% Discount <br> On the New Products</h2>
+                        <a href="#" class="button">Go to new</a>
+                    </div>
+                </div>
+             </section>
+            <!--=======New arrivals============-->
+            <section class="new section">
+                <h2 class="section__title">New Arrivals</h2>
+
+                <div class="new__container container">
+                    <div class="swiper new-swiper">
+                        <div class="swiper-wrapper">
+                            <!--New content 1-->
+                            <div class="new__content swiper-slide">
+                                <div class="new__tag">New</div>
+                                <img src="new arrival img/Screenshot (120).png" alt="" class="new__img">
+                                <h3 class="new__title">Women's Crew Neck Shirt</h3>
+                                <span class="new__subtitle">Sweat Shirt</span>
+
+                                <div class="new__prices">
+                                    <span class="new__price">₱1,040</span>
+                                    <span class="new__discount">-₱2,080</span>
+                                </div>
+
+                                <a href="details.html" class="button new__button">
+                                    <i class="bx bx-cart-alt new__icon"></i>
+                                </a>
+                            </div>
+
+                            <!--New content 2-->
+                            <div class="new__content swiper-slide">
+                                <div class="new__tag">New</div>
+                                <img src="new arrival img/Tennis & Racquet Sport Shirts & Tops for sale _ eBay.jpg" alt="" class="new__img">
+                                <h3 class="new__title">Men's Crew Neck Shirt</h3>
+                                <span class="new__subtitle">Sweat Shirt</span>
+
+                                <div class="new__prices">
+                                    <span class="new__price">₱1,150</span>
+                                    <span class="new__discount">-₱2,350</span>
+                                </div>
+
+                                <a href="details.html" class="button new__button">
+                                    <i class="bx bx-cart-alt new__icon"></i>
+                                </a>
+                            </div>
+
+                            <!--New content 3-->
+                            <div class="new__content swiper-slide">
+                                <div class="new__tag">New</div>
+                                <img src="new arrival img/ha.jpg" alt="" class="new__img">
+                                <h3 class="new__title">Women and Men's Crew Neck Shirt</h3>
+                                <span class="new__subtitle">Sweat Shirt</span>
+
+                                <div class="new__prices">
+                                    <span class="new__price">₱1,020</span>
+                                    <span class="new__discount">-₱2,040</span>
+                                </div>
+
+                                <a href="details.html" class="button new__button">
+                                    <i class="bx bx-cart-alt new__icon"></i>
+                                </a>
+                            </div>
+
+                            <!--New content 4-->
+                            <div class="new__content swiper-slide">
+                                <div class="new__tag">New</div>
+                                <img src="new arrival img/ha.jpg" alt="" class="new__img">
+                                <h3 class="new__title">Women and Men's Crew Neck Shirt</h3>
+                                <span class="new__subtitle">Sweat Shirt</span>
+
+                                <div class="new__prices">
+                                    <span class="new__price">₱1,020</span>
+                                    <span class="new__discount">-₱2,040</span>
+                                </div>
+
+                                <a href="details.html" class="button new__button">
+                                    <i class="bx bx-cart-alt new__icon"></i>
+                                </a>
+                            </div>
+
+                            <!--New content 5-->
+                            <div class="new__content swiper-slide">
+                                <div class="new__tag">New</div>
+                                <img src="new arrival img/ha.jpg" alt="" class="new__img">
+                                <h3 class="new__title">Women and Men's Crew Neck Shirt</h3>
+                                <span class="new__subtitle">Sweat Shirt</span>
+
+                                <div class="new__prices">
+                                    <span class="new__price">₱1,020</span>
+                                    <span class="new__discount">-₱2,040</span>
+                                </div>
+
+                                <a href="details.html" class="button new__button">
+                                    <i class="bx bx-cart-alt new__icon"></i>
+                                </a>
+                            </div>
+
+                            <!--New content 6-->
+                            <div class="new__content swiper-slide">
+                                <div class="new__tag">New</div>
+                                <img src="new arrival img/ha.jpg" alt="" class="new__img">
+                                <h3 class="new__title">Women and Men's Crew Neck Shirt</h3>
+                                <span class="new__subtitle">Sweat Shirt</span>
+
+                                <div class="new__prices">
+                                    <span class="new__price">₱1,020</span>
+                                    <span class="new__discount">-₱2,040</span>
+                                </div>
+
+                                <a href="details.html" class="button new__button">
+                                    <i class="bx bx-cart-alt new__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <!--=======Steps============-->
+            <section class="steps section container">
+                <div class="steps__bg">
+                    <h2 class="section__title">HOW TO ORDER PRODUCTS <br> FROM C-SHOPPER</h2>
+
+                    <div class="steps__container grid">
+                        <!-- STEPS CARD 1-->
+                        <div class="steps__card">
+                            <div class="steps__card-number">01</div>
+                            <h3 class="steps__cards-title">Choose Products</h3>
+                            <p class="steps__cards-description">
+                                We have several varieties products you can choose from.
+                            </p>
+                        </div>
+                         <!-- STEPS CARD 2-->
+                         <div class="steps__card">
+                            <div class="steps__card-number">02</div>
+                            <h3 class="steps__cards-title">Place an order</h3>
+                            <p class="steps__cards-description">
+                                Once your order is set, we move to the next step which is the shipping.
+                            </p>
+                        </div>
+                         <!-- STEPS CARD 3-->
+                         <div class="steps__card">
+                            <div class="steps__card-number">03</div>
+                            <h3 class="steps__cards-title">Get order delivered</h3>
+                            <p class="steps__cards-description">
+                                Our delivery process is easy, you receive the order direct to your home.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--=======Newsletter============-->
+            <section class="Newsletter section">
+                <div class="newsletter__container container">
+                    <h2 class="section__title">Our Newsletter</h2>
+                    <p class="newsletter__description">
+                        Promotion new products and sales. Directly to your inbox
+                    </p>
+
+                    <form action="" class="newsletter__form">
+                        <input type="text" placeholder="Enter your email" class="newsletter__input">
+                        <button class="button">Subscribe</button>
+                    </form>
+                </div>
+            </section>
+        <!--=======FOOTER============-->
+        <footer class="footer section">
+            <div class="footer section">
+                <div class="footer__container container">
+                    <div class="footer__content">
+                        <a href="#" class="footer__logo">
+                            <i class="bx bxs-shpping-bags footer__logo-icon">C-shopper</i>
+                        </a>
+
+                        <p class="footer__description">Enjoy the biggest sale <br> of your life.</p>
+
+                        <div class="footer__social">
+                            <a href="#" class="footer__social-link"><i class="bx bxl-facebook"></i></a>
+                            <a href="#" class="footer__social-link"><i class="bx bxl-instagram-alt"></i></a>
+                            <a href="#" class="footer__social-link"><i class="bx bxl-twitter"></i></a>
+                        </div>
+                    </div>
+                    <!--FOOTER CONTENT 1-->
+                    <div class="footer__content">
+                        <h3 class="footer__">About</h3>
+
+                        <ul class="footer__links">
+                            <li><a href="#" class="footer__link">About Us</a></li>
+                            <li><a href="#" class="footer__link">Customer Support</a></li>
+                            <li><a href="#" class="footer__link">Support Center</a></li>
+                        </ul>
+                    </div>
+
+                    <!--FOOTER CONTENT 2-->
+                    <div class="footer__content">
+                        <h3 class="footer__">Our Services</h3>
+
+                        <ul class="footer__links">
+                            <li><a href="#" class="footer__link">Shop</a></li>
+                            <li><a href="#" class="footer__link">Discounts</a></li>
+                            <li><a href="#" class="footer__link">Shipping mode</a></li>
+                        </ul>
+                    </div>
+
+                    <!--FOOTER CONTENT 3-->
+                    <div class="footer__content">
+                        <h3 class="footer__">Our Company</h3>
+
+                        <ul class="footer__links">
+                            <li><a href="#" class="footer__link">Register</a></li>
+                            <li><a href="#" class="footer__link">Contact Us</a></li>
+                            <li><a href="#" class="footer__link"></a>About us</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <span class="footer__copy">&#169; Carranza. All rights reserved</span>
+        </footer>
+
+        <!--=======SCROLL UP============-->
+
+        <!--=======STYLE SWITCHER============-->
+
+        <!--=======SWIPER JS============-->
+        <script src="swiper/swiper-bundle.min.js"></script>
+        <!--=======JS============-->
+        <script src="script.js"></script>
+    </body>
+</html>
